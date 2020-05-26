@@ -1,0 +1,21 @@
+{
+  "name": "errand",
+  "version": "1.0.0",
+  "description": "form database of an errand website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "author": "Alfred Chimereze Bryan",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.16",
+    "nodemailer": "^6.4.6",
+    "nodemon": "^2.0.4"
+  }
+}
