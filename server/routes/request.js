@@ -90,7 +90,7 @@ router.post("/request", (req, res) => {
           //Notify via mail
           const mail = {
             from: "Admin",
-            to: "alfred.chimereze@gmail.com",
+            to: "Macalfredsservices@gmail.com",
             subject: "Mail from Macalfred's Errands",
             text: `${request}`,
           };
